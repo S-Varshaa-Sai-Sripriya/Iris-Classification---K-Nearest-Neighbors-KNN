@@ -1,0 +1,15 @@
+data:
+  raw_dataset_path: data/raw/iris.csv
+  cleaned_dataset_path: data/processed/iris_cleaned.csv
+  test_size: 0.2
+  random_state: 42
+
+model:
+  n_neighbors: 3
+  weights: "uniform"
+  algorithm: "auto"
+  save_model_path: artifacts/model.pkl
+
+logging:
+  log_dir: logs/
+  log_file: project.log
